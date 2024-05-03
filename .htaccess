@@ -1,0 +1,6 @@
+RewriteEngine On
+    RewriteBase /A_1015_EVA%20OKTAVIANA
+    RewriteRule ^index\\.php$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /A_1015_EVA%20OKTAVIANA/index.php [L]
