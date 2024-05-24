@@ -10,7 +10,7 @@ Router::url('register', 'get', 'register.php');
 Router::url('login', 'get', 'login.php');
 Router::url('insertcontactapps', 'post', 'insertcontactapps.php');
 Router::url('updatecontactapps', 'get', 'edit_contactapps.php');
-Router::url('deletecontactapps', 'get', 'delete-contactapps.php');
+Router::url('deletecontactapps', 'get', 'delete_contactapps.php');
 
 
 Router::url('/', 'get', function () {
